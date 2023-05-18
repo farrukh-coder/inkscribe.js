@@ -1,0 +1,27 @@
+{
+  "name": "inkscribe.js",
+  "version": "1.0.0",
+  "description": "A lightweight typewriter effect library",
+  "main": "dist/inkscribe.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "node dist/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["typewriter", "effect", "animation"],
+  "author": "Farrukh Nosirov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farrukh-coder/inkscribe.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/farrukh-coder/inkscribe.js/issues"
+  },
+  "homepage": "https://github.com/farrukh-coder/inkscribe.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  }
+}
